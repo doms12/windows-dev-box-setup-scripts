@@ -40,8 +40,8 @@ choco install -y visualstudio2017community --package-parameters="'--add Microsof
 Update-SessionEnvironment #refreshing env due to Git install
 
 #--- UWP Workload and installing Windows Template Studio ---
-choco install -y visualstudio2017-workload-azure
-choco install -y visualstudio2017-workload-nativedesktop
+choco install -y visualstudio2019-workload-azure
+choco install -y visualstudio2019-workload-nativedesktop
 
 #--- reenabling critial items ---
 Enable-UAC
